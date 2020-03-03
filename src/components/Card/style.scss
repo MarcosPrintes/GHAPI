@@ -1,0 +1,50 @@
+.app_card {
+  width: 150px;
+  min-height: 150px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 3px 0px #000;
+  display: inline-block;
+  vertical-align: top;
+  padding: 5px;
+  margin: 15px;
+  cursor: pointer;
+  transition: all .3s ease;
+  background: #1e2a30;
+  &:hover {
+    box-shadow:0px 1px 20px -3px #000;
+  }
+  .app_card_avatar {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 15px auto;
+      img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: calc(100% + 40px);
+      }
+  }
+
+  p {
+    min-width: 100%;
+    color: #fff;
+    overflow: hidden;
+  }
+  ul{
+    width: 100%;
+    margin-top: 5px;
+    li{
+      span{
+        font-size: 12px;
+        padding: 5px;
+        margin: 3px;
+        color: yellow;
+      }
+    }
+  }
+}

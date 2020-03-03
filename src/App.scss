@@ -1,0 +1,37 @@
+*, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #1b262c;
+  padding: 16px;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+a, button {
+  outline: none;
+}
+.app_home, .app_sidebar {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 15px;
+}
+.app_home{
+  text-align: center;
+}
+.App {
+}
+.load{
+  text-align: center;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
