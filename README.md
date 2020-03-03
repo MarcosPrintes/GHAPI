@@ -1,5 +1,6 @@
 # GHAPI
-A simple project with React.js that list github repositories 
+
+A simple project with React.js that list github repositories to test infinite scroll and IntersectionObserver api.
 
 ### `yarn install`
 ### `yarn start`
