@@ -1,5 +1,5 @@
 # GHAPI
-- A simple project with React.js that list github repositories 
+A simple project with React.js that list github repositories 
 
 ### `yarn install`
 ### `yarn start`
